@@ -1,0 +1,10 @@
+[flake8]
+#standard max-line-length used in black formatter
+max-line-length = 88
+exclude = .svn,
+          CVS,
+          .bzr,
+          .hg,
+          .git,
+          __pycache__,
+          .tox,
